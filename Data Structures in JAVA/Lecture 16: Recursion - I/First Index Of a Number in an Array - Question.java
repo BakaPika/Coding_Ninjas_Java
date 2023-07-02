@@ -10,6 +10,7 @@
 // 1
 
 
+
 public class Solution {
 
 
@@ -26,16 +27,9 @@ public class Solution {
 	 	 * Taking input and printing output is handled automatically.
 		*/
 
-		if(index == input.length - 1)
+		if(index == input.length)
         {
-            if(input[index] == x)
-            {
-                return index;
-            }
-            else
-            {
-                return -1;
-            }
+            return -1;
         }
         if(input[index] == x)
         {
